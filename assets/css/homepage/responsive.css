@@ -1,0 +1,84 @@
+ @media(max-width: 767px){
+ 
+.product_list .offerss {
+   
+    position: absolute;
+    right: 0px;
+       top: -5px;
+}
+
+ 
+ }
+
+  @media(max-width: 996px){
+.fulldivs{
+    padding-top: 150px;
+}
+    .navbar_mart input[type=text] { 
+    width: 100%;
+    
+}
+   .navbar_mart {height: auto} 
+   section.menu .nav-link{ padding:7px;}
+  section.menu{    margin-bottom: 0;    max-height: 327px;
+    overflow: scroll;}
+ section.menu .nav-item{   margin-right: 0px;padding:0}
+
+  section.menu .dropdown-menu{margin-bottom: 10px;}
+  .input_texts{margin-top:10px;}
+
+  .dropdown-menu {
+  
+    margin: 5px 0 0 0px;
+}
+
+.product_fulllist h4 {
+ 
+    font-size: 18px;
+
+}
+
+.nav-next{display:none;}
+ 
+ }
+@media(min-width: 996px)
+ {/*for menu horizontal scroll css
+*/
+.cata-sub-nav { 
+    overflow-x: auto;
+    /* We don't want vertical scrolling */
+    overflow-y: hidden;
+    /* Make an auto-hiding scroller for the 3 people using a IE */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* For WebKit implementations, provide inertia scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* We don't want internal inline elements to wrap */
+    white-space: nowrap;
+    /* Remove the default scrollbar for WebKit implementations */
+}
+.cata-sub-nav::-webkit-scrollbar {
+        display: none;
+    }
+.cata-sub-nav ul {
+    margin: 0;
+  display: inline-block ;
+    -webkit-padding-start: 0px;
+}
+.cata-sub-nav li {
+    display: inline-block ;
+    margin: 0 10px;
+    font-size: 16px;
+} 
+.arrow{
+   width: 25px;
+    height: 25px;
+    position: absolute;
+        top: 8px;
+     font-size: 29px;
+}
+.nav-prev { 
+    left: -27px; 
+}
+.nav-next { 
+    right: -10px; 
+}}

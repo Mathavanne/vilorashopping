@@ -1,0 +1,28 @@
+/*candidates page*/
+.requiredform .required:after {
+    content: "*";
+    color: 
+red;
+font-weight: 400;
+font-size: 18px;
+} 
+
+.requiredform label{
+	margin-top: 10px;
+
+}
+.full-screen{display: none!important;}
+
+.new_product label{margin-top:10px;}
+.light_back{background:#f1f4f6;}
+
+.btn-primary {
+    color:var(--bgwhite);
+    background-color: var(--primarycolor)!important;
+    border-color: var(--primarycolor);
+    outline:none!important;
+    box-shadow: none!important; 
+}
+table *{text-transform:capitalize;}
+
+.select2-container{text-transform: capitalize;width:100%!important;}
